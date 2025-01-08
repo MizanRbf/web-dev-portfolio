@@ -5,13 +5,33 @@
   font-variation-settings:
     "wdth" 100;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 /* Shared Style */
+
+.secondary-bg {
+  background-color: #FFF8F3;
+}
 .text-primary{
   color: #FD6E0A;
 }
 .dark-2{
    color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
 }
 
 .btn-primary {
@@ -24,6 +44,7 @@
   border: none;
   margin-right: 30px;
 }
+
 /* Header Style */
 .header {
   background-image: url(images/developer.png), url(images/header_bg.png);
@@ -75,11 +96,42 @@ nav ul li a {
   font-size: 85px;
   font-weight: bold;
 }
-p {
-  font-size: 18px;
-  font-weight: 500;
-  color: #474747;
-}
+
 .banner-profile-pic {
 width: 580px;
 }
+
+/* Main Styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  }
+
+/* About Styles */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 187px;
+  margin-bottom: 130px;
+}
+.about-div {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.item-description {
+  font-weight: bold;
+  color: black:
+}
+
+
+/* p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #474747;
+} */
